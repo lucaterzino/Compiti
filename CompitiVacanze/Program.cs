@@ -14,6 +14,12 @@ namespace CompitiVacanze
 
             //"a" equivale al massimo valore che si può ottenere
             Console.WriteLine(a);
+
+            //se sommato 1 ad "a" si ottiene il minimo valore che può ottenere dato che non si può andare oltre un determinato valore
+            if (a < int.MaxValue)
+            {
+                Console.WriteLine(a + 1);
+            }
         }
     }
 }
