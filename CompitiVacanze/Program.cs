@@ -43,7 +43,6 @@ namespace CompitiVacanze
 
 
             Console.ReadLine();
-
         }
     }
 }
