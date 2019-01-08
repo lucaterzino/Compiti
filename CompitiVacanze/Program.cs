@@ -20,6 +20,22 @@ namespace CompitiVacanze
             {
                 Console.WriteLine(a + 1);
             }
+
+            //
+            int b = 128;
+            int c = -b;
+            Console.WriteLine(Convert.ToString(b, 2));
+            Console.WriteLine(Convert.ToString(c, 2));
+
+            Console.WriteLine("Inserisci un numero");
+            int value = Convert.ToInt32(Console.ReadLine());
+            int somma = value;
+            value = value - 1; //not
+            //value = value +1
+            somma = somma + value;
+            Console.WriteLine($"il numero negativo è {value} e la somma con il numero inserito è {somma}");
+            .
+
         }
     }
 }
