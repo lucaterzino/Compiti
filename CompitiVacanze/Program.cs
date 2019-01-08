@@ -34,7 +34,15 @@ namespace CompitiVacanze
             //value = value +1
             somma = somma + value;
             Console.WriteLine($"il numero negativo è {value} e la somma con il numero inserito è {somma}");
-            .
+
+            //conversione del valore della variabile number di tipo long a una nuova variable short
+            long number = 55555;
+            Console.WriteLine(Convert.ToString(number, 2));
+            short number1 = (short)number;
+            Console.WriteLine(number1);
+
+
+            Console.ReadLine();
 
         }
     }
